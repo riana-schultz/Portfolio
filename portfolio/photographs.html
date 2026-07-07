@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riana Schultz — Photographs</title>
+<meta name="description" content="Photography portfolio of Riana Schultz.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Instrument+Serif:ital@1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site-header"></header>
+
+<main>
+
+  <section class="page-header">
+    <div class="container">
+      <p class="eyebrow reveal">Portfolio</p>
+      <h1 class="section-heading reveal">Photographs</h1>
+      <p class="section-lede reveal">
+        Mostly documentary and portrait work, shot on 35mm and digital.
+        Click any image for a closer look.
+      </p>
+      <div class="filter-bar reveal">
+        <button class="filter-btn is-active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="portrait">Portrait</button>
+        <button class="filter-btn" data-filter="street">Street</button>
+        <button class="filter-btn" data-filter="travel">Travel</button>
+        <button class="filter-btn" data-filter="film">Film</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery container">
+    <div class="gallery-grid">
+
+      <div class="gallery-item reveal" data-category="portrait" data-lightbox-title="Afternoon Light" data-lightbox-desc="Portrait series, shot on Portra 400. Portland, OR — 2025.">
+        <div class="placeholder-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg></div>
+        <div class="gallery-caption"><h4>Afternoon Light</h4><p>Portrait · Portra 400</p></div>
+      </div>
+
+      <div class="gallery-item reveal" data-category="street" data-lightbox-title="Corner Store, 5AM" data-lightbox-desc="Street photography series shot on early morning walks. Portland, OR — 2024.">
+        <div class="placeholder-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg></div>
+        <div class="gallery-caption"><h4>Corner Store, 5AM</h4><p>Street · Digital</p></div>
+      </div>
+
+      <div class="gallery-item reveal" data-category="travel" data-lightbox-title="Coastal Fog" data-lightbox-desc="From a week along the Oregon coast. Cannon Beach, OR — 2024.">
+        <div class="placeholder-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg></div>
+        <div class="gallery-caption"><h4>Coastal Fog</h4><p>Travel · Digital</p></div>
+      </div>
+
+      <div class="gallery-item reveal" data-category="film" data-lightbox-title="Kitchen Table" data-lightbox-desc="From a personal project documenting family gatherings. Shot on Tri-X 400.">
+        <div class="placeholder-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg></div>
+        <div class="gallery-caption"><h4>Kitchen Table</h4><p>Film · Tri-X 400</p></div>
+      </div>
+
+      <div class="gallery-item reveal" data-category="portrait" data-lightbox-title="Studio Session No. 3" data-lightbox-desc="Portrait study exploring natural window light. Studio Marrow — 2025.">
+        <div class="placeholder-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg></div>
+        <div class="gallery-caption"><h4>Studio Session No. 3</h4><p>Portrait · Digital</p></div>
+      </div>
+
+      <div class="gallery-item reveal" data-category="street" data-lightbox-title="Transit" data-lightbox-desc="Part of an ongoing series about commuting. Portland, OR — 2023–present.">
+        <div class="placeholder-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg></div>
+        <div class="gallery-caption"><h4>Transit</h4><p>Street · Digital</p></div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<div class="lightbox" role="dialog" aria-modal="true">
+  <button class="lightbox-close" aria-label="Close">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 2l14 14M16 2L2 16" stroke="currentColor" stroke-width="1.6"/></svg>
+  </button>
+  <div class="lightbox-content">
+    <div class="lightbox-image">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
+    </div>
+    <div class="lightbox-info">
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="../script.js"></script>
+<script src="../header.js"></script>
+<script src="../footer.js"></script>
+</body>
+</html>
