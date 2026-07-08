@@ -1,7 +1,6 @@
 # Riana Schultz — Portfolio Site
 
-A multi-page portfolio built with plain HTML, CSS, and JavaScript — no
-build step required.
+
 
 ## Running it locally
 
@@ -9,9 +8,7 @@ build step required.
 2. Install the **Live Server** extension if you don't have it.
 3. Right-click `index.html` → **Open with Live Server**.
 
-That's it — the site works with plain file links, so it'll also run fine
-if you just double-click `index.html` (though Live Server gives you
-auto-refresh while editing).
+
 
 ## File structure
 

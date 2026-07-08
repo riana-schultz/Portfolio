@@ -1,0 +1,26 @@
+[
+  {
+    "file": "1.jpg",
+    "title": "IMG_0001",
+    "category": "portrait",
+    "description": ""
+  },
+  {
+    "file": "2.jpg",
+    "title": "2.jpg",
+    "category": "portrait",
+    "description": ""
+  },
+  {
+    "file": "3.jpg",
+    "title": "Beach",
+    "category": "portrait",
+    "description": ""
+  },
+  {
+    "file": "4.jpg",
+    "title": "Portrait",
+    "category": "portrait",
+    "description": ""
+  }
+]
