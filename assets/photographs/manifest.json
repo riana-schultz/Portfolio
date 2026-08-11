@@ -1,25 +1,43 @@
 [
   {
     "file": "1.jpg",
-    "title": "IMG_0001",
+    "title": "The Sadie Series 1",
     "category": "portrait",
     "description": ""
   },
   {
     "file": "2.jpg",
-    "title": "2.jpg",
+    "title": "The Sadie Series 2",
     "category": "portrait",
     "description": ""
   },
   {
     "file": "3.jpg",
-    "title": "Beach",
+    "title": "The Sadie Series 3",
     "category": "portrait",
     "description": ""
   },
   {
     "file": "4.jpg",
-    "title": "Portrait",
+    "title": "The Sadie Series 4",
+    "category": "portrait",
+    "description": ""
+  },
+  {
+    "file": "5.jpg",
+    "title": "The Sadie Series 5",
+    "category": "portrait",
+    "description": ""
+  },
+  {
+    "file": "6.jpg",
+    "title": "The Sadie Series 6",
+    "category": "portrait",
+    "description": ""
+  },
+  {
+    "file": "7.jpg",
+    "title": "The Sadie Series 7",
     "category": "portrait",
     "description": ""
   }

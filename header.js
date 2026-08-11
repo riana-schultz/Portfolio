@@ -21,8 +21,8 @@
         </button>
         <div class="nav-dropdown-menu">
           <a href="${root}portfolio/games.html" class="${currentPath === 'games.html' ? 'is-active' : ''}">Games</a>
-          <a href="${root}portfolio/projects.html" class="${currentPath === 'projects.html' ? 'is-active' : ''}">Projects</a>
-          <a href="${root}portfolio/designs.html" class="${currentPath === 'designs.html' ? 'is-active' : ''}">Designs</a>
+          <!-- <a href="${root}portfolio/projects.html" class="${currentPath === 'projects.html' ? 'is-active' : ''}">Projects</a> -->
+          <!-- <a href="${root}portfolio/designs.html" class="${currentPath === 'designs.html' ? 'is-active' : ''}">Designs</a> -->
           <a href="${root}portfolio/photographs.html" class="${currentPath === 'photographs.html' ? 'is-active' : ''}">Photographs</a>
           <a href="${root}portfolio/videos.html" class="${currentPath === 'videos.html' ? 'is-active' : ''}">Videos</a>
         </div>
